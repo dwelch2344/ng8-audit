@@ -1,0 +1,29 @@
+{
+  "name": "deps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:audits": "npm audit > audit.txt; npm audit --json > audit.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/zone.js": "@neverendingsupport/angular@8.2.15-zone.js",
+    "@angular/upgrade": "@neverendingsupport/angular@8.2.15-upgrade",
+    "@angular/service-worker": "@neverendingsupport/angular@8.2.15-service-worker",
+    "@angular/router": "@neverendingsupport/angular@8.2.15-router",
+    "@angular/platform-webworker-dynamic": "@neverendingsupport/angular@8.2.15-platform-webworker-dynamic",
+    "@angular/platform-webworker": "@neverendingsupport/angular@8.2.15-platform-webworker",
+    "@angular/platform-server": "@neverendingsupport/angular@8.2.15-platform-server",
+    "@angular/platform-browser-dynamic": "@neverendingsupport/angular@8.2.15-platform-browser-dynamic",
+    "@angular/platform-browser": "@neverendingsupport/angular@8.2.15-platform-browser",
+    "@angular/http": "@neverendingsupport/angular@8.2.15-http",
+    "@angular/forms": "@neverendingsupport/angular@8.2.15-forms",
+    "@angular/core": "@neverendingsupport/angular@8.2.15-core",
+    "@angular/compiler-cli": "@neverendingsupport/angular@8.2.15-compiler-cli",
+    "@angular/compiler": "@neverendingsupport/angular@8.2.15-compiler",
+    "@angular/common": "@neverendingsupport/angular@8.2.15-common",
+    "@angular/animations": "@neverendingsupport/angular@8.2.15-animations"
+  }
+}
